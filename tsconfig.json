@@ -2,10 +2,10 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "types": ["cypress"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "types": ["jest", "node", "@types/testing-library__jest-dom"],
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -27,5 +27,5 @@
     "**/*.tsx",
     "jest.config.js"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "cypress.config.ts"]
 }
