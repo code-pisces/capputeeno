@@ -13,6 +13,7 @@ const customJestConfig = {
     '^@/(.*)': '<rootDir>/src/$1',
   },
   testEnvironment: 'jest-environment-jsdom',
+  modulePathIgnorePatterns: ['cypress'],
 }
 
 module.exports = createJestConfig(customJestConfig)

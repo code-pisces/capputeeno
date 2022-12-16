@@ -23,6 +23,7 @@
   "extends": [
     "next/core-web-vitals",
     "eslint:recommended",
+    "plugin:jest-dom/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
