@@ -11,6 +11,7 @@ const customJestConfig = {
   modulePaths: ['@<rootDir/>/'],
   moduleNameMapper: {
     '^@/(.*)': '<rootDir>/src/$1',
+    '^.+\\.(svg)$': '<rootDir>/__mocks__/svg.tsx',
   },
   testEnvironment: 'jest-environment-jsdom',
   modulePathIgnorePatterns: ['cypress'],

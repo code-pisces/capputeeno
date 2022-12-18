@@ -12,4 +12,9 @@ export default createGlobalStyle`
     font-family: ${({ theme }) => theme.fonts.primary};
     background: ${({ theme }) => theme.colors.background};
   }
+
+  svg {
+    height: 24px;
+    width: 24px;
+  }
 `
